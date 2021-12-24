@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="com.indra.runners.VivaAirRunners" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="22LAP5CD1195R94" time="0.0">
   <properties/>
-  <system-out><![CDATA[11:34:48.028 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Repo\Reto_VivaAir_Serenity_Cucumber\serenity.properties 
-11:34:48.075 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Repo\Reto_VivaAir_Serenity_Cucumber\serenity.properties 
-11:34:48.076 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Repo\Reto_VivaAir_Serenity_Cucumber\serenity.properties 
-11:34:48.084 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
-11:34:48.085 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.incognito=true
-11:34:48.085 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
-11:34:48.085 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.acceptSslCerts=true
-11:34:48.085 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
-11:34:48.085 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=https://www.vivaair.com/
-11:34:48.085 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Dojo Serenity / Cucumber
-11:34:48.085 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=6000
-11:34:48.085 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
-11:34:48.085 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
-11:34:48.085 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
-11:34:48.319 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Repo\Reto_VivaAir_Serenity_Cucumber\serenity.properties 
-11:34:48.325 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Repo\Reto_VivaAir_Serenity_Cucumber\serenity.properties 
-11:34:48.326 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Repo\Reto_VivaAir_Serenity_Cucumber\serenity.properties 
-11:34:48.327 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
-11:34:48.327 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.incognito=true
-11:34:48.327 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
-11:34:48.327 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.acceptSslCerts=true
-11:34:48.327 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
-11:34:48.328 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=https://www.vivaair.com/
-11:34:48.328 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Dojo Serenity / Cucumber
-11:34:48.328 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=6000
-11:34:48.328 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
-11:34:48.329 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
-11:34:48.329 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
-11:34:48.336 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
+  <system-out><![CDATA[11:45:23.727 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Repo\Reto_VivaAir_Serenity_Cucumber\serenity.properties 
+11:45:23.789 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Repo\Reto_VivaAir_Serenity_Cucumber\serenity.properties 
+11:45:23.789 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Repo\Reto_VivaAir_Serenity_Cucumber\serenity.properties 
+11:45:23.796 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+11:45:23.797 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.incognito=true
+11:45:23.797 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
+11:45:23.798 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.acceptSslCerts=true
+11:45:23.798 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
+11:45:23.798 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=https://www.vivaair.com/
+11:45:23.798 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Dojo Serenity / Cucumber
+11:45:23.798 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=6000
+11:45:23.798 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
+11:45:23.798 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
+11:45:23.799 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
+11:45:24.093 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Repo\Reto_VivaAir_Serenity_Cucumber\serenity.properties 
+11:45:24.101 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Repo\Reto_VivaAir_Serenity_Cucumber\serenity.properties 
+11:45:24.101 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Repo\Reto_VivaAir_Serenity_Cucumber\serenity.properties 
+11:45:24.103 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+11:45:24.103 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.incognito=true
+11:45:24.103 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.chrome.driver=src/test/resources/drivers/chromedriver.exe
+11:45:24.103 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - chrome.capabilities.acceptSslCerts=true
+11:45:24.103 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.console.colors=true
+11:45:24.103 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=https://www.vivaair.com/
+11:45:24.103 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Dojo Serenity / Cucumber
+11:45:24.103 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=6000
+11:45:24.104 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.use.unique.browser=true
+11:45:24.104 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.timeouts.implicitlywait=10000
+11:45:24.104 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.browser.maximized=true
+11:45:24.111 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[96m
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -46,9 +46,9 @@
  Learn Serenity BDD online at http://serenity-dojo.com                               
 -------------------------------------------------------------------------------------
 ?[0m
-11:34:48.345 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@f5f9f551
-11:34:48.347 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Buscar Vuelo
-11:34:48.390 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+11:45:24.119 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@f5f9f551
+11:45:24.120 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Buscar Vuelo
+11:45:24.166 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -58,42 +58,42 @@
 
 TEST STARTED: el usuario deberia poder buscar viajes de solo ida
 -------------------------------------------------------------------(buscar-vuelo;el-usuario-deberia-poder-buscar-viajes-de-solo-ida)
-11:34:48.456 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
-11:34:48.457 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
-11:35:16.704 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
-11:35:16.749 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
-11:35:16.757 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@6dd5cfe0
-11:35:16.759 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Buscar Vuelo:el usuario deberia poder buscar viajes de solo ida
-11:35:16.759 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@6dd5cfe0: Generating report for test outcome: Buscar Vuelo:el usuario deberia poder buscar viajes de solo ida
-11:35:16.761 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for el usuario deberia poder buscar viajes de solo ida to file C:\Repo\Reto_VivaAir_Serenity_Cucumber\target\site\serenity\6b14f66e32eb7d95eec2107544c1cc1b62f595f5e7aaa7fb9b9077a8f168a2c4.json (using temp file C:\Repo\Reto_VivaAir_Serenity_Cucumber\target\site\serenity\6b14f66e32eb7d95eec2107544c1cc1b62f595f5e7aaa7fb9b9077a8f168a2c4.json90b5de97-bd76-4a7c-9b44-82ef5753410a)
-11:35:16.787 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Buscar Vuelo:el usuario deberia poder buscar viajes de solo ida done
-11:35:16.787 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
-11:35:16.787 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 30 ms
-11:35:16.787 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@319372fa
-11:35:16.788 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Buscar Vuelo:el usuario deberia poder buscar viajes de solo ida
-11:35:16.788 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@319372fa: Generating report for test outcome: Buscar Vuelo:el usuario deberia poder buscar viajes de solo ida
-11:35:16.788 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR el usuario deberia poder buscar viajes de solo ida in 6b14f66e32eb7d95eec2107544c1cc1b62f595f5e7aaa7fb9b9077a8f168a2c4
-11:35:16.806 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
-11:35:16.806 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
-11:35:16.807 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Viva air', type='capability' parent = 'null', cardNumber='null'}]
-11:35:16.811 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder buscar viajes de solo ida-[]: Optional[Requirement{name='Buscar Vuelo', type='feature' parent = 'Viva air', cardNumber='null'}]
-11:35:16.813 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder buscar viajes de solo ida-[]: Optional[Requirement{name='Buscar Vuelo', type='feature' parent = 'Viva air', cardNumber='null'}]
-11:35:16.842 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder buscar viajes de solo ida-[]: Optional[Requirement{name='Buscar Vuelo', type='feature' parent = 'Viva air', cardNumber='null'}]
-11:35:16.843 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder buscar viajes de solo ida-[]: Optional[Requirement{name='Buscar Vuelo', type='feature' parent = 'Viva air', cardNumber='null'}]
-11:35:16.960 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 6b14f66e32eb7d95eec2107544c1cc1b62f595f5e7aaa7fb9b9077a8f168a2c4_screenshots.html
-11:35:17.204 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 6b14f66e32eb7d95eec2107544c1cc1b62f595f5e7aaa7fb9b9077a8f168a2c4_screenshots.html in 244 ms
-11:35:17.205 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Buscar Vuelo:el usuario deberia poder buscar viajes de solo ida in 6b14f66e32eb7d95eec2107544c1cc1b62f595f5e7aaa7fb9b9077a8f168a2c4.html in directory C:\Repo\Reto_VivaAir_Serenity_Cucumber\target\site\serenity  
-11:35:17.207 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 6b14f66e32eb7d95eec2107544c1cc1b62f595f5e7aaa7fb9b9077a8f168a2c4.html
-11:35:17.277 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 6b14f66e32eb7d95eec2107544c1cc1b62f595f5e7aaa7fb9b9077a8f168a2c4.html in 70 ms
-11:35:17.277 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Buscar Vuelo:el usuario deberia poder buscar viajes de solo ida done
-11:35:17.277 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
-11:35:17.277 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 490 ms
-11:35:17.405 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
-11:35:17.405 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+11:45:24.232 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+11:45:24.232 [Test worker] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+11:45:54.541 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+11:45:54.587 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+11:45:54.594 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@48cf04c2
+11:45:54.595 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Buscar Vuelo:el usuario deberia poder buscar viajes de solo ida
+11:45:54.595 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@48cf04c2: Generating report for test outcome: Buscar Vuelo:el usuario deberia poder buscar viajes de solo ida
+11:45:54.597 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for el usuario deberia poder buscar viajes de solo ida to file C:\Repo\Reto_VivaAir_Serenity_Cucumber\target\site\serenity\6b14f66e32eb7d95eec2107544c1cc1b62f595f5e7aaa7fb9b9077a8f168a2c4.json (using temp file C:\Repo\Reto_VivaAir_Serenity_Cucumber\target\site\serenity\6b14f66e32eb7d95eec2107544c1cc1b62f595f5e7aaa7fb9b9077a8f168a2c4.jsond5ac3939-51c7-436b-8a0e-ebd07f6cce53)
+11:45:54.621 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Buscar Vuelo:el usuario deberia poder buscar viajes de solo ida done
+11:45:54.621 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+11:45:54.621 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 27 ms
+11:45:54.621 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@5ea566b1
+11:45:54.622 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Buscar Vuelo:el usuario deberia poder buscar viajes de solo ida
+11:45:54.622 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@5ea566b1: Generating report for test outcome: Buscar Vuelo:el usuario deberia poder buscar viajes de solo ida
+11:45:54.622 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATE TEST OUTCOME REPORT FOR el usuario deberia poder buscar viajes de solo ida in 6b14f66e32eb7d95eec2107544c1cc1b62f595f5e7aaa7fb9b9077a8f168a2c4
+11:45:54.641 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.6 class cucumber.runtime.model.FeatureLoader try Cucumber 4.2.0 
+11:45:54.641 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Found no Cucumber 4.2.0 class cucumber.runtime.model.FeatureLoader try Cucumber 2.x.x 
+11:45:54.642 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.RequirementsTagProvider -  found:[Requirement{name='Viva air', type='capability' parent = 'null', cardNumber='null'}]
+11:45:54.647 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder buscar viajes de solo ida-[]: Optional[Requirement{name='Buscar Vuelo', type='feature' parent = 'Viva air', cardNumber='null'}]
+11:45:54.648 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder buscar viajes de solo ida-[]: Optional[Requirement{name='Buscar Vuelo', type='feature' parent = 'Viva air', cardNumber='null'}]
+11:45:54.676 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder buscar viajes de solo ida-[]: Optional[Requirement{name='Buscar Vuelo', type='feature' parent = 'Viva air', cardNumber='null'}]
+11:45:54.676 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.BaseRequirementsService - Requirement found for test outcome el usuario deberia poder buscar viajes de solo ida-[]: Optional[Requirement{name='Buscar Vuelo', type='feature' parent = 'Viva air', cardNumber='null'}]
+11:45:54.803 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 6b14f66e32eb7d95eec2107544c1cc1b62f595f5e7aaa7fb9b9077a8f168a2c4_screenshots.html
+11:45:55.038 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 6b14f66e32eb7d95eec2107544c1cc1b62f595f5e7aaa7fb9b9077a8f168a2c4_screenshots.html in 235 ms
+11:45:55.039 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Buscar Vuelo:el usuario deberia poder buscar viajes de solo ida in 6b14f66e32eb7d95eec2107544c1cc1b62f595f5e7aaa7fb9b9077a8f168a2c4.html in directory C:\Repo\Reto_VivaAir_Serenity_Cucumber\target\site\serenity  
+11:45:55.041 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generating report in 6b14f66e32eb7d95eec2107544c1cc1b62f595f5e7aaa7fb9b9077a8f168a2c4.html
+11:45:55.113 [pool-2-thread-1] DEBUG net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - Generated report 6b14f66e32eb7d95eec2107544c1cc1b62f595f5e7aaa7fb9b9077a8f168a2c4.html in 72 ms
+11:45:55.113 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome Buscar Vuelo:el usuario deberia poder buscar viajes de solo ida done
+11:45:55.113 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+11:45:55.113 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 492 ms
+11:45:55.244 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+11:45:55.244 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
 
 1 Scenarios (?[32m1 passed?[0m)
 4 Steps (?[32m4 passed?[0m)
-0m28,477s
+0m30,553s
 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

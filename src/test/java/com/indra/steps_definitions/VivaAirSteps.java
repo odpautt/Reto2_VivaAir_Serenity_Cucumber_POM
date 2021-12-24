@@ -37,27 +37,4 @@ public class VivaAirSteps {
         vivaAirActions.muestraLaCantidadDeResultados();
 
     }
-/** ########################## escenario de prueba 2 ######################################
-
-    @Given("^El usario esta en la pagina de inicio$")
-    public void elUsarioEstaEnLaPaginaDeInicio() {
-        vivaAirActions.open();
-    }
-
-    @When("^El usuario selecciona la opcion viaje de ida y regreso$")
-    public void elUsuarioSeleccionaLaOpcionViajeDeIdaYRegreso() {
-
-    }
-
-    @When("^El usuario diligencia la informacion requeria del formulario de vuelos$")
-    public void elUsuarioDiligenciaLaInformacionRequeriaDelFormularioDeVuelos(List<FormularioVuelos> formularioVuelosList) {
-
-
-    }
-
-    @Then("^El sistema mostrará las opciones de viajes disponibles$")
-    public void elSistemaMostraraLasOpcionesDeViajesDisponibles() {
-
-    }
- */
 }
