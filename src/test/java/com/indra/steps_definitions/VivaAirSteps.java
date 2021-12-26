@@ -1,5 +1,4 @@
 package com.indra.steps_definitions;
-
 import com.indra.actions.VivaAirActions;
 import com.indra.models.FormularioVuelos;
 import cucumber.api.java.en.Given;
@@ -7,7 +6,6 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
-
 import java.util.List;
 
 public class VivaAirSteps {
