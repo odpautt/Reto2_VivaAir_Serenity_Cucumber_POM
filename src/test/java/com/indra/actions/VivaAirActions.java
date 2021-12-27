@@ -1,15 +1,12 @@
 /**Hecho por Orlando Pautt*/
 
 package com.indra.actions;
-
 import com.indra.models.FormularioVuelos;
 import com.indra.pages.VivaAirHomePages;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
-
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,19 +18,23 @@ public class VivaAirActions extends VivaAirHomePages {
         super(driver);
     }
 
-
     public void aceptarCookies(){
         getCookies().click();
     }
 
-    public void seleccionarTipoVuelo(){
+    public void seleccionarOpcionVueloIda(){
         getSeleccionaSoloIda().click();
+    }
+
+    public void seleccionarOpcionVueloIdaYVuelta(){
+        getSeleccionaIdaYVuelta().click();
     }
 
     public void llenarFormularioDeVuelos(FormularioVuelos formularioVuelos ){
         llenarOrigen(formularioVuelos);
         llenarDestino(formularioVuelos);
-        diligenciarFechaDeVuelo(formularioVuelos);
+        //diligenciarFechaDeVueloDeIda(formularioVuelos,formularioVuelos.getFechaIda());
+        diligenciarFechaDeVueloIdaVuelta(formularioVuelos);
         agregarCantidadDePasajeros(formularioVuelos);
     }
 
@@ -83,17 +84,16 @@ public class VivaAirActions extends VivaAirHomePages {
         getBotonBuscarVuelos().click();
     }
 
-    public void muestraLaCantidadDeResultados(){
-        getResultadoDelaBusquedaDelVuelo().waitUntilPresent();
-        System.out.println(getResultadoDelaBusquedaDelVuelo().getText());
-
+    public int muestraLaCantidadDeResultados(){
+        System.out.println(getResultadoDelaBusquedaDelVuelo().size());
+        return getResultadoDelaBusquedaDelVuelo().size();
     }
 
-    public void seleccionarFechaDelCalendarioDeLaIzquierda(FormularioVuelos formularioVuelos) {
+    public void seleccionarFechaDelCalendarioDeLaIzquierda(FormularioVuelos formularioVuelos, String fechaVuelo) {
         Boolean diaHabilitado= false;
-        String diaDeIda = obtenerFecha(formularioVuelos.getFechaIda())[0];
-        String mesDeIda = obtenerFecha(formularioVuelos.getFechaIda())[1];
-        String anioDeIda = obtenerFecha(formularioVuelos.getFechaIda())[2];
+        String diaDeIda = obtenerFecha(fechaVuelo)[0];
+        String mesDeIda = obtenerFecha(fechaVuelo)[1];
+        String anioDeIda = obtenerFecha(fechaVuelo)[2];
 
         System.out.println("Dia ### "+diaDeIda+" Mes #### "+mesDeIda+" ### Año "+anioDeIda);
 
@@ -103,12 +103,11 @@ public class VivaAirActions extends VivaAirHomePages {
         for(int j=0; j<14;j++){
 
             getBotonSiguieteCalendario().waitUntilVisible();
-            //System.out.println(getNombreMes().getText());
             mesCalendario = getNombreMes().getText();
             anioCalendario = getYear().getText();
-           if(anioDeIda.equals(anioCalendario) && mesDeIda.equals(mesCalendario)){
-                  break;
-                }
+            if(anioDeIda.equals(anioCalendario) && mesDeIda.equals(mesCalendario)){
+                break;
+            }
             getBotonSiguieteCalendario().click();
         }
         getCalendario().waitUntilVisible();
@@ -118,6 +117,7 @@ public class VivaAirActions extends VivaAirHomePages {
         listadoDeDiasHabilitadosParaViaje.addAll(getDíasHabilitadosDeViajes2());
         listadoDeDiasHabilitadosParaViaje.addAll(getDíasHabilitadosDeViajes3());
 
+        /** ciclo para seleccionar el dia, si el dia esta disponible **/
         for (WebElementFacade dia : listadoDeDiasHabilitadosParaViaje){
             if(diaDeIda.equals(dia.getText())){
                 dia.click();
@@ -131,11 +131,11 @@ public class VivaAirActions extends VivaAirHomePages {
         }
     }
 
-    public void seleccionarFechaDelCalendarioDeLaDerecha(FormularioVuelos formularioVuelos) {
+    public void seleccionarFechaDelCalendarioDeLaDerecha(FormularioVuelos formularioVuelos,String fechaVuelo) {
         Boolean diaHabilitado= false;
-        String diaDeIda = obtenerFecha(formularioVuelos.getFechaIda())[0];
-        String mesDeIda = obtenerFecha(formularioVuelos.getFechaIda())[1];
-        String anioDeIda = obtenerFecha(formularioVuelos.getFechaIda())[2];
+        String diaDeIda = obtenerFecha(fechaVuelo)[0];
+        String mesDeIda = obtenerFecha(fechaVuelo)[1];
+        String anioDeIda = obtenerFecha(fechaVuelo)[2];
 
         System.out.println("Dia ### "+diaDeIda+" Mes #### "+mesDeIda+" ### Año "+anioDeIda);
 
@@ -173,21 +173,27 @@ public class VivaAirActions extends VivaAirHomePages {
         }
     }
 
-    public void diligenciarFechaDeVuelo(FormularioVuelos formularioVuelos){
-        String mesDeIda = obtenerFecha(formularioVuelos.getFechaIda())[1];
+    public void diligenciarFechaDeVueloDeIda(FormularioVuelos formularioVuelos, String fechaVuelo){
+        String mesDeIda = obtenerFecha(fechaVuelo)[1];
 
 
         if(mesDeIda.equals("Diciembre")||mesDeIda.equals("Febrero")||mesDeIda.equals("Abril")||mesDeIda.equals("Junio")||mesDeIda.equals("Agosto")||mesDeIda.equals("Octubre")){
-            //System.out.println("izquierda");
-            seleccionarFechaDelCalendarioDeLaIzquierda(formularioVuelos);
+            seleccionarFechaDelCalendarioDeLaIzquierda(formularioVuelos, fechaVuelo);
+
         }
         else if(mesDeIda.equals("Enero")||mesDeIda.equals("Marzo")||mesDeIda.equals("Mayo")||mesDeIda.equals("Julio")||mesDeIda.equals("Septiembre")||mesDeIda.equals("Noviembre")){
             //System.out.println("derecha");
-            seleccionarFechaDelCalendarioDeLaDerecha(formularioVuelos);
+            seleccionarFechaDelCalendarioDeLaDerecha(formularioVuelos, fechaVuelo);
        }
         else{
             System.out.println("no existe ese mes");
         }
+    }
+
+    public void diligenciarFechaDeVueloIdaVuelta(FormularioVuelos formularioVuelos ){
+        diligenciarFechaDeVueloDeIda(formularioVuelos,formularioVuelos.getFechaIda());
+        diligenciarFechaDeVueloDeIda(formularioVuelos,formularioVuelos.getFechaVuelta());
+
     }
 
     public String[] obtenerFecha(String fecha){

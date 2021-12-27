@@ -22,6 +22,9 @@ public class VivaAirHomePages extends PageObject {
     @FindBy(xpath = "//span[contains(.,'Solo ida')]")
     private WebElementFacade seleccionaSoloIda;
 
+    @FindBy(xpath = "//span[contains(.,'Ida y regreso')]")
+    private WebElementFacade seleccionaIdaYVuelta;
+
     @FindBy(xpath = "(//input[contains(@type,'text')])[1]")
     private WebElementFacade Origen;
 
@@ -32,6 +35,9 @@ public class VivaAirHomePages extends PageObject {
     private WebElementFacade listaDesplegable;
 
 
+
+    /*****************************************************Elementos del calendario  *************************************/
+
     @FindBy(xpath = "(//img[@alt='Calendario'])[2]")
     private WebElementFacade btnCalendario;
 
@@ -41,10 +47,10 @@ public class VivaAirHomePages extends PageObject {
     @FindBy(xpath = "//div[@class='calendar__date_picker']")
     private WebElementFacade calendario;
 
-
     @FindBy(xpath = "(//div[@class='calendar__date_picker']//div[@class='month']//div//span[@class='name'])[1]")
     private WebElementFacade nombreMes;
 
+    /** Calendario de la derecha*/
 
     @FindBy(xpath = "(//div[@class='calendar__date_picker']//div[@class='month']//div//span[@class='year ml-1'])[1]")
     private WebElementFacade year;
@@ -58,7 +64,7 @@ public class VivaAirHomePages extends PageObject {
     @FindBy(xpath = "(//div[contains(@class,'calendar__date_picker__container--grid calendar__date_picker__container__day--first')])[1]//div[@class='calendar__date_picker__container__day date medium']")
     private List<WebElementFacade> díasHabilitadosDeViajes3;
 
-
+    /** Calendario de la izquierda*/
 
     @FindBy(xpath = "(//div[@class='calendar__date_picker']//div[@class='month']//div//span[@class='name'])[2]")
     private WebElementFacade nombreMesDerecha;
@@ -74,10 +80,7 @@ public class VivaAirHomePages extends PageObject {
 
     @FindBy(xpath = "(//div[contains(@class,'calendar__date_picker__container--grid calendar__date_picker__container__day--first')])[2]//div[@class='calendar__date_picker__container__day date medium']")
     private List<WebElementFacade> díasHabilitadosDeViajesDerecha3;
-
-
-
-
+    /** Cantidad de pasajeros **/
     @FindBy(id = "passenger")
     private WebElementFacade seccionCantidadPasajeros;
 
@@ -93,18 +96,22 @@ public class VivaAirHomePages extends PageObject {
     @FindBy(xpath = "(//span[contains(.,'Buscar')])[1]")
     private WebElementFacade botonBuscarVuelos;
 
-    @FindBy(xpath = "(//div[@class='detail details__departure d-flex flex-column align-items-center justify-content-center'])[1]")
-    private WebElementFacade resultadoDelaBusquedaDelVuelo;
+    @FindBy(xpath = "(//div[@class='detail details__departure d-flex flex-column align-items-center justify-content-center'])")
+    private List<WebElementFacade> resultadoDelaBusquedaDelVuelo;
 
 
     @FindBy(xpath = "(//div[@class='calendar__date_picker']//div[@class='month']//div//span[@class='name'])")
     private List<WebElementFacade> listaDeInvento;
 
+    public List<WebElementFacade> getResultadoDelaBusquedaDelVuelo() {
+        return resultadoDelaBusquedaDelVuelo;
+    }
+
+    /*********************************************** Metodos Get de cada elemento ****************************************************/
+
     public List<WebElementFacade> getListaDeInvento() {
         return listaDeInvento;
     }
-
-    /** Metodos Get de cada elemento*/
 
     public List<WebElementFacade> getDíasHabilitadosDeViajes() {
         return díasHabilitadosDeViajes;
@@ -178,9 +185,6 @@ public class VivaAirHomePages extends PageObject {
         return botonBuscarVuelos;
     }
 
-    public WebElementFacade getResultadoDelaBusquedaDelVuelo() {
-        return resultadoDelaBusquedaDelVuelo;
-    }
 
 
     public WebElementFacade getNombreMesDerecha() {
@@ -202,4 +206,10 @@ public class VivaAirHomePages extends PageObject {
     public List<WebElementFacade> getDíasHabilitadosDeViajesDerecha3() {
         return díasHabilitadosDeViajesDerecha3;
     }
+
+    public WebElementFacade getSeleccionaIdaYVuelta() {
+        return seleccionaIdaYVuelta;
+    }
+
+
 }

@@ -7,6 +7,8 @@ public class FormularioVuelos {
     private String numeroPasajerosAdultos;
     private String numeroPasajerosNinos;
     private String numeroPasajerosInfantes;
+    private String fechaVuelta;
+
 
 
     public String getNumeroPasajerosNinos() {
@@ -23,6 +25,10 @@ public class FormularioVuelos {
 
     public String getFechaIda() {
         return fechaIda;
+    }
+
+    public String getFechaVuelta() {
+        return fechaVuelta;
     }
 
     public String getNumeroPasajerosAdultos() {
